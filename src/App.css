@@ -1,0 +1,47 @@
+.disflex{
+    display: flex;
+}
+.contImg{
+    height: 400px;
+    justify-content: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.grid{
+    display: grid;
+}
+.img-fluida{
+   height: 100%;
+   width: 100%;
+   object-fit: contain;
+   
+}
+ul{
+    list-style: none;
+}
+.filterOption:hover{
+    background-color: rgb(202, 202, 197);
+}
+.generalProductCont{
+    grid-template-columns: repeat(3,1fr);
+    padding: 0;
+    gap: 50px;
+}
+.productCont{
+
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}
+.productImgCont{
+    height: 150px;
+}
+.productCont img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.textRight{
+    text-align: right;
+}
